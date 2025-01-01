@@ -16,7 +16,9 @@ BG
 
 Изходен формат
 
-За всеки случай отпечатайте „Не е намерено“, ако лицето няма запис в телефонния указател. В противен случай отпечатайте името и телефонния номер на лицето.
+За всеки случай отпечатайте „Не е намерено“, ако лицето няма запис в телефонния указател. В противен случай отпечатайте името и телефонния номер на лицето. Вижте примерен изход за точния формат.
+
+За да улесним проблема, предоставихме част от кода в редактора. Можете или да завършите този код, или да напишете напълно сами.
 
 Вход:
 3
@@ -56,6 +58,8 @@ A person's name consists of only lower-case English letters and it may be in the
 Output Format
 
 For each case, print "Not found" if the person has no entry in the phone book. Otherwise, print the person's name and phone number. See sample output for the exact format.
+
+To make the problem easier, we provided a portion of the code in the editor. You can either complete that code or write completely on your own.
 
 Input:
 3

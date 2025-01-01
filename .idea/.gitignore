@@ -1,3 +1,10 @@
-# Default ignored files
+# IntelliJ IDEA specific files
+/.idea/
+/*.iml
+
+# Compiled output folder
+/out/
+
+# IntelliJ temporary files
 /shelf/
 /workspace.xml
