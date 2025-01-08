@@ -1,0 +1,89 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BG
+Дадени са ви двойки низове. Две двойки (a,b) и (c,d) са идентични, ако a=c и . Това също означава, че (a,b) не е същото като (b,a). След като вземете всяка двойка като вход, трябва да отпечатате броя на уникалните двойки, които имате в момента.
+
+Попълнете кода в редактора, за да разрешите този проблем.
+
+Вход:
+
+В първия ред ще има цяло число T, което означава брой двойки. Всеки от следващите T редове ще съдържа два низа, разделени с един интервал.
+
+Ограничения:
+
+1<=T<=100000
+
+Дължината на всеки низ е най-много 5 и ще се състои само от малки букви.
+
+Изход:
+
+Отпечатайте T редове. В t-тия ред отпечатайте броя на уникалните двойки, които имате, след като вземете i-тата двойка като вход.
+
+Вход:
+5
+john tom
+john mary
+john tom
+mary anna
+mary anna
+
+
+Изход:
+1
+2
+2
+3
+3
+
+Обяснение
+
+След като направите първия вход, имате само една двойка: (john,tom)
+След като вземете втория вход, имате две двойки: (john, tom) и (john, mary)
+След като вземете третия вход, все още имате две уникални двойки.
+След като вземете четвъртия вход, имате три уникални двойки: (john,tom), (john, mary) и (mary, anna)
+След като вземете петия вход, все още имате три уникални двойки.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EN
+You are given  pairs of strings. Two pairs(a,b)  and (c,d) are identical if  a=c and . That also implies (a,b)  is not same as (b,a) . After taking each pair as input, you need to print number of unique pairs you currently have.
+
+Complete the code in the editor to solve this problem.
+
+Input:
+
+In the first line, there will be an integer  T denoting number of pairs. Each of the next  T lines will contain two strings seperated by a single space.
+
+Constraints:
+
+1<=T<=100000
+
+Length of each string is atmost 5 and will consist lower case letters only.
+
+Output:
+
+Print T lines. In the t-th  line, print number of unique pairs you have after taking i-th pair as input.
+
+Input:
+
+5
+john tom
+john mary
+john tom
+mary anna
+mary anna
+
+Output:
+1
+2
+2
+3
+3
+
+Explanation
+
+After taking the first input, you have only one pair: (john,tom)
+After taking the second input, you have two pairs: (john, tom) and (john, mary)
+After taking the third input, you still have two unique pairs.
+After taking the fourth input, you have three unique pairs: (john,tom), (john, mary) and (mary, anna)
+After taking the fifth input, you still have three unique pairs.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
