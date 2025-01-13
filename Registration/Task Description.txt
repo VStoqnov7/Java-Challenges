@@ -1,0 +1,74 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BG
+На първия ред ще получите потребителското име, което той иска да използва на първо място. На следващите редове ще получавате команди до командата "Регистрация". Има пет възможни команди:
+• „Букви {долни/горни}“
+o Заменете всички букви с малки или с главни, след което отпечатайте резултата.
+• „Обратно {startIndex} {endIndex}“
+o Обърнете подниза от началния индекс до крайния индекс (и двата включително), след което го отпечатайте. НЕ го променяйте в потребителското име.
+Забележка: Проверете дали индексите са валидни. Ако не са - пропуснете командата. Индексът е валиден, когато е неотрицателен и е по-малък от размера на колекцията.
+• „Подниз {подниз}“
+o Ако потребителското име съдържа дадения подниз, изрежете го и отпечатайте резултата без изрязания подниз.
+o В противен случай отпечатайте:
+„Потребителското име {string} не съдържа {substring}.“
+• "Замени {char}"
+o Заменете всички срещания на дадения символ с тире (-) и отпечатайте резултата.
+• "IsValid {char}"
+o За да бъде валидно потребителското име, то трябва да съдържа дадения символ. Ако е, отпечатайте „Валидно потребителско име.“.
+o В противен случай отпечатайте: "{char} трябва да се съдържа във вашето потребителско име."
+Вход
+• На първия ред ще получите низа.
+• На следващите редове, докато не бъде получена командата "Регистрация", ще получавате команди.
+• Всички команди са чувствителни към регистъра.
+Изход
+• Отпечатайте изхода на всяка команда във формата, описан по-горе.
+Примери
+
+Вход:
+John
+Letters Lower
+Substring SA
+IsValid @
+Registration
+
+Изход:
+john
+The username john doesn't contain SA.
+@ must be contained in your username.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EN
+On the first line, you will receive the username that he wants to use in the first place. On the following lines, you will be receiving commands until the "Registration" command. There are five possible commands:
+•	"Letters {Lower/Upper}"
+o	Replace all letters with lower case or with upper case, then print the result.
+•	"Reverse {startIndex} {endIndex}"
+o	Reverse the substring from the start index until the end index (both inclusive), then print it. Do NOT change it in the username.
+Note: Check if the indices are valid. If they aren't - skip the command. An index is valid when it is non-negative and less than the size of the collection.
+•	"Substring {substring}"
+o	If the username contains the given substring, cut it out and print the result without the cut substring.
+o	Otherwise, print:
+"The username {string} doesn't contain {substring}."
+•	"Replace {char}"
+o	Replace all occurences of the given char with a dash (-) and print the result.
+•	"IsValid {char}"
+o	For a username to be valid, it must contain the given char. If it is, print "Valid username.".
+o	Otherwise, print: "{char} must be contained in your username."
+Input
+•	On the first line, you are going to receive the string.
+•	On the following lines, until the "Registration" command is received, you will be receiving commands.
+•	All commands are case-sensitive.
+Output
+•	Print the output of every command in the format described above.
+Examples
+
+Input:
+John
+Letters Lower
+Substring SA
+IsValid @
+Registration
+
+Output:
+john
+The username john doesn't contain SA.
+@ must be contained in your username.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
