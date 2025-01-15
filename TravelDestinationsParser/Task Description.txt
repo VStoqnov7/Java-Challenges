@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BG
+Сега, след като сте планирали вашето турне, вие сте готови да тръгнете! Следващата ви задача е да маркирате всички точки на картата, които ще посетите.
+Ще ви бъде даден низ, представляващ някои места на картата. Трябва да филтрирате само валидните. Валидно местоположение е:
+• Заобиколен от "=" или "/" от двете страни (първият и последният символ трябва да съвпадат)
+• След първото "=" или "/" трябва да има само букви (първата трябва да е главна, останалите букви могат да бъдат главни или малки)
+• Буквите трябва да са поне 3
+Пример: В низа "=Hawai=/Cyprus/=Invalid/invalid==i5valid=/I5valid/=i=" само първите две местоположения са валидни.
+След като съпоставите всички валидни местоположения, трябва да изчислите точки за пътуване. Те се изчисляват чрез сумиране на дължините на всички валидни дестинации, които сте намерили на картата.
+Накрая на първия ред отпечатайте: "Дестинации: {дестинации, обединени от ', '}".
+На втория ред отпечатайте „Точки за пътуване: {travel_points}“.
+Вход / Ограничения
+• Ще получите низ, представляващ местоположенията на картата.
+• JavaScript: ще получите един параметър: низ.
+Изход
+• Отпечатайте съобщенията, описани по-горе.
+Вход:
+=Hawai=/Cyprus/=Invalid/invalid==i5valid=/I5valid/=i=
+
+Изход:
+Destinations: Hawai, Cyprus
+Travel Points: 11
+
+Вход:
+ThisIs some InvalidInput
+
+Изход:
+Destinations:
+Travel Points: 0
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ЕN
+Now that you have planned out your tour, you are ready to go! Your next task is to mark all the points on the map that you are going to visit.
+You will be given a string representing some places on the map. You have to filter only the valid ones. A valid location is:
+•	Surrounded by "=" or "/" on both sides (the first and the last symbols must match)
+•	After the first "=" or "/" there should be only letters (the first must be upper-case, other letters could be upper or lower-case)
+•	The letters must be at least 3
+Example: In the string "=Hawai=/Cyprus/=Invalid/invalid==i5valid=/I5valid/=i=" only the first two locations are valid.
+After you have matched all the valid locations, you have to calculate travel points. They are calculated by summing the lengths of all the valid destinations that you have found on the map.
+In the end, on the first line, print: "Destinations: {destinations joined by ', '}".
+On the second line, print "Travel Points: {travel_points}".
+Input / Constraints
+•	You will receive a string representing the locations on the map.
+•	JavaScript: you will receive a single parameter: string.
+Output
+•	Print the messages described above.
+Input:
+=Hawai=/Cyprus/=Invalid/invalid==i5valid=/I5valid/=i=
+
+Output:
+Destinations: Hawai, Cyprus
+Travel Points: 11
+
+Input:
+ThisIs some InvalidInput
+
+Output:
+Destinations:
+Travel Points: 0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
