@@ -1,0 +1,71 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BG
+Световният номер едно в мъжкия тенис Новак Джокович е решил да подмени оборудването, с което играе своите мачове. За целта той ви моли да напишете програма, която да изчисли стойността на покупките, като се има предвид, че той трябва да заплати 1/8 от цената, а останалите 7/8 трябва да бъдат заплатени от неговите спонсори.
+Джокович иска да закупи n на брой тенис ракети и m чифта маратонки, както и друга екипировка, на стойност 20% от общата цена на закупените ракети и маратонки.
+Известно е, че:
+•	1 чифт маратонки = 1/6 от цената на една тенис ракета
+Вход:
+От конзолата се прочитат 3 реда:
+•	Цена на една тенис ракета – реално число в интервала [0.00…100000.00]
+•	Брой тенис ракети - цяло число в интервала [0…100]
+•	Брой чифтове маратонки - цяло число в интервала [0…100]
+Крайната цена се сформира от сумата от цената на ракетите, цената на маратонките и цената на останалата екипировка.
+Изход:
+На конзолата се отпечатват 2 реда:
+•	"Price to be paid by Djokovic {1/8 от общата цена, закръглена към по-малкото цяло число}"
+•	"Price to be paid by sponsors {7/8 от общата цена, закръглена към по-голямото цяло число}"
+
+Вход:
+850
+4
+2
+
+Изход:
+Price to be paid by Djokovic 552
+Price to be paid by sponsors 3868
+
+Обяснения:
+Цената за ракетите 4 * 850 => 3400
+Цена за чифт маратонки 850 / 6 => 141.66
+Цена за всички маратонки 2 * 141.66 => 283.33
+Цена за останало оборудване (3400 + 283.33) * 0.2 = 736.66
+Обща цена = 3400 + 283.33 + 736.66 = 4420
+Цена за Джокович = 4420 / 8 = 552
+Цена за спонсорите = 4420 * 7 / 8 = 3868
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EN
+The world number one in men's tennis, Novak Djokovic, has decided to replace the equipment he uses to play his matches. To do this, he asks you to write a program that calculates the cost of the purchases, assuming that he has to pay 1/8 of the price and the remaining 7/8 are to be paid by his sponsors.
+Djokovic wants to buy n tennis rackets and m pairs of sneakers, as well as other equipment worth 20% of the total cost of the rackets and sneakers purchased.
+It is known that:
+• 1 pair of sneakers = 1/6 of the price of a tennis racket
+Input:
+3 lines are read from the console:
+• Price of a tennis racket - real number in the interval [0.00…100000.00]
+• Number of tennis rackets - integer in the interval [0…100]
+• Number of pairs of sneakers - integer in the interval [0…100]
+The final price is formed by the sum of the price of the rackets, the price of the sneakers and the price of the remaining equipment.
+Output:
+2 lines are printed to the console:
+• "Price to be paid by Djokovic {1/8 of the total price, rounded down}"
+• "Price to be paid by sponsors {7/8 of the total price, rounded up}"
+
+Input:
+850
+4
+2
+
+Output:
+Price to be paid by Djokovic 552
+Price to be paid by sponsors 3868
+
+Explanations:
+Price for rackets 4 * 850 => 3400
+Price for a pair of sneakers 850 / 6 => 141.66
+Price for all sneakers 2 * 141.66 => 283.33
+Price for other equipment (3400 + 283.33) * 0.2 = 736.66
+Total price = 3400 + 283.33 + 736.66 = 4420
+Cost for Djokovic = 4420 / 8 = 552
+Cost for sponsors = 4420 * 7 / 8 = 3868
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
