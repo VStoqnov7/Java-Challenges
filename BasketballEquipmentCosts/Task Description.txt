@@ -1,0 +1,59 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BG
+Джеси решава, че иска да се занимава с баскетбол, но за да тренира е нужна екипировка. Напишете програма, която изчислява какви разходи ще има Джеси, ако започне да тренира, като знаете колко е таксата за тренировки по баскетбол за период от 1 година. Нужна екипировка:
+•	Баскетболни кецове – цената им е 40% по-малка от таксата за една година
+•	Баскетболен екип – цената му е 20% по-евтина от тази на кецовете
+•	Баскетболна топка – цената ѝ е 1 / 4 от цената на баскетболния екип
+•	Баскетболни аксесоари – цената им е 1 / 5 от цената на баскетболната топка
+Вход
+От конзолата се четe 1 ред:
+•	Годишната такса за тренировки по баскетбол – цяло число в интервала [0… 9999]
+Изход
+Да се отпечата на конзолата колко ще са разходите на Джеси, ако започне да спортува баскетбол. Сумата да бъде форматирана до втория знак след десетичния знак.
+Примерен вход и изход
+
+
+Вход:
+320
+
+Изход:
+711.68
+
+Обяснения:
+
+320	711.68	Цена на тренировките за година: 320
+Цена на баскетболните кецове: 320 – 40% = 192
+Цена на баскетболен екип: 192 – 20% = 153.6
+Цена на баскетболна топка: 1 / 4 от 153.6 = 38.4
+Цена на баскетболни аксесоари: 1 /  5 от 38.4 = 7.68
+Обща цена за екипировката: 320 + 192 + 153.6 + 38.4 + 7.68 = 711.68
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EN
+Jesse decides that he wants to play basketball, but he needs equipment to practice. Write a program that calculates the costs Jesse will incur if he starts practicing, given the basketball training fee for 1 year. Equipment needed:
+• Basketball sneakers – their price is 40% less than the fee for one year
+• Basketball team – their price is 20% cheaper than the sneakers
+• Basketball ball – their price is 1 / 4 of the price of the basketball team
+• Basketball accessories – their price is 1 / 5 of the price of the basketball
+Input
+Read 1 line from the console:
+• Annual basketball training fee – an integer in the range [0… 9999]
+Output
+Print on the console how much Jesse will spend if he starts playing basketball. The amount should be formatted to the second decimal place.
+Sample Input and Output
+
+Input:
+320
+
+Output:
+711.68
+
+Explanations:
+
+320 711.68 Cost of training per year: 320
+Cost of basketball sneakers: 320 – 40% = 192
+Cost of basketball team: 192 – 20% = 153.6
+Cost of basketball ball: 1 / 4 of 153.6 = 38.4
+Cost of basketball accessories: 1 / 5 of 38.4 = 7.68
+Total cost of equipment: 320 + 192 + 153.6 + 38.4 + 7.68 = 711.68
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
