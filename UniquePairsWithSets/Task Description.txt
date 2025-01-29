@@ -64,7 +64,6 @@ Output:
 Print T lines. In the t-th  line, print number of unique pairs you have after taking i-th pair as input.
 
 Input:
-
 5
 john tom
 john mary
